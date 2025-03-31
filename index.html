@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>保険金支払い進捗確認</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .info-box {
+            background: #e3f2fd;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #007BFF;
+            text-align: left;
+        }
+
+        .info-box p {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .progress-bar {
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+            height: 20px;
+            margin: 20px 0;
+        }
+
+        .progress {
+            height: 100%;
+            width: [ここに進捗率]%;
+            background-color: #007BFF;
+            text-align: center;
+            color: white;
+            line-height: 20px;
+            font-weight: bold;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>保険金支払い進捗確認</h1>
+    <p>現在の進捗状況を確認できます。</p>
+
+    <div class="info-box">
+        <p><strong>保険契約番号：</strong>MK12345678</p>
+        <p><strong>支払い状況：</strong>最終審査</p>
+    </div>
+
+    <div class="progress-bar">
+        <div class="progress" style="width: 70%;"></div>
+    </div>
+
+    <p>進捗率：70%</p>
+
+    <a href="#" class="button">トップページへ戻る</a>
+</div>
+
+</body>
+</html>
